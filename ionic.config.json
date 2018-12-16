@@ -1,0 +1,7 @@
+{
+  "name": "AppDocePrazer",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

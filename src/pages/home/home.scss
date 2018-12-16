@@ -1,0 +1,55 @@
+page-home {
+//para acessar uma das cores definidas no variables.scss, utilizar o seguinte: color($colors, primary)
+    .bg-image{
+        background-image: linear-gradient(rgb(255, 0, 50), rgb(255, 80, 120));
+    }
+
+    div.center {
+        position: absolute;
+        left: 0%;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+    }
+    div.social-networks-buttons{
+        top: 90vh;
+        bottom: 6vh;
+        //margin-top: 45vh;
+        max-height: 20vh;
+        left: 18vw;
+        right: 18vw;
+        position: fixed;
+    }
+    button.play-button{
+        //padding: 36px 54px;
+        width: 54vw; //largura
+        height: 12vh;    //altura
+        border: 3px solid color($colors, light);
+        font-size: 27px;
+    }
+    button.options-button{
+        width: 45vw; //largura
+        height: 9vh;    //altura
+        border: 3px solid color($colors, light);
+    }
+    button.btn-instagram{
+        background-image: linear-gradient(to bottom right,#593ad7, #d73078, #f8c418);
+        left: 3vw;
+        height: 6vh;
+        width: 18vw;
+    }
+    button.btn-twitter{
+        background-color: #39a1ce;
+        margin-left: 21vw;
+        height: 6vh;
+        width: 18vw;
+    }
+    .logo-image{
+        margin-top: 15vh; 
+        margin-left: 6vw;  
+        //height: ;
+        max-width: 90vw;  
+    }
+
+}
