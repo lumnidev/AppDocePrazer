@@ -15,29 +15,44 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class GamesPage {
 
+  private nextPages = {
+    
+    testPage: "TestPage",
+    positionsPage: "PositionsPage",
+    deckPage: "DeckGamePage",
+    stripPage: "StripteasePage",
+    prelimPage: "PreliminaryPage",
+  }
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad GamesPage');
   }
-  goToPreliminar(){
-    this.navCtrl.push('PreliminarPage')
+  goToPreliminar() {
+    this.navCtrl.push("SelectSexPage", {nextPage: this.nextPages.prelimPage})
 
   }
-  goToBaralho(){
-    this.navCtrl.push('BaralhoPage')
+  goToDeck() {
+    this.navCtrl.push("SelectSexPage", {nextPage: this.nextPages.deckPage})
 
   }
-  goToPosicoes(){
-    this.navCtrl.push('PosicoesPage')}
-    
-    goToContos(){
-      this.navCtrl.push('ContosPage')}
-      
-      goToStripetease(){
-        this.navCtrl.push('StripeteasePage')
-      
-      }
+  goToPositions() {
+    this.navCtrl.push("SelectSexPage", {nextPage: this.nextPages.positionsPage})
+  }
+
+  // goToPositions() {
+  //   this.navCtrl.push('PositionsPage')
+  // }
+
+  goToTales() {
+    this.navCtrl.push('TalesPage');
+  }
+
+  goToStripetease() {
+    this.navCtrl.push("SelectSexPage", {nextPage: this.nextPages.stripPage})
+
+  }
 
 }

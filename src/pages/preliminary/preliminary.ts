@@ -1,0 +1,28 @@
+import { Component } from '@angular/core';
+import { IonicPage, NavController, NavParams } from 'ionic-angular';
+
+/**
+ * Generated class for the PreliminaryPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+
+@IonicPage()
+@Component({
+  selector: 'page-preliminary',
+  templateUrl: 'preliminary.html',
+})
+export class PreliminaryPage {
+
+  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  }
+
+  ionViewDidLoad() {
+    console.log('ionViewDidLoad PreliminaryPage');
+  }
+
+  goToSelect(){
+    this.navCtrl.push('SelectPreliminaryPage')
+  }
+}
