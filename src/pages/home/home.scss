@@ -1,55 +1,233 @@
-page-home {
-//para acessar uma das cores definidas no variables.scss, utilizar o seguinte: color($colors, primary)
-    .bg-image{
-        background-image: linear-gradient(rgb(255, 0, 50), rgb(255, 80, 120));
-    }
-
-    div.center {
-        position: absolute;
-        left: 0%;
-        top: 50%;
-        width: 100%;
-        text-align: center;
-        font-size: 18px;
-    }
-    div.social-networks-buttons{
-        top: 90vh;
-        bottom: 6vh;
-        //margin-top: 45vh;
-        max-height: 20vh;
-        left: 18vw;
-        right: 18vw;
-        position: fixed;
-    }
-    button.play-button{
-        //padding: 36px 54px;
-        width: 54vw; //largura
-        height: 12vh;    //altura
-        border: 3px solid color($colors, light);
-        font-size: 27px;
-    }
-    button.options-button{
-        width: 45vw; //largura
-        height: 9vh;    //altura
-        border: 3px solid color($colors, light);
-    }
-    button.btn-instagram{
-        background-image: linear-gradient(to bottom right,#593ad7, #d73078, #f8c418);
-        left: 3vw;
-        height: 6vh;
-        width: 18vw;
-    }
-    button.btn-twitter{
-        background-color: #39a1ce;
-        margin-left: 21vw;
-        height: 6vh;
-        width: 18vw;
-    }
-    .logo-image{
-        margin-top: 15vh; 
-        margin-left: 6vw;  
-        //height: ;
-        max-width: 90vw;  
-    }
-
+#cont{
+    background: #0f1522;
+ 
 }
+
+.buttons{
+    position: relative;
+    margin-top: 5%;
+    z-index: 99999;
+}
+
+.logo{
+     margin-top: 25%;
+    
+    z-index: 99999;
+    position: relative;
+}
+
+.teste{
+ margin-top: 15%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//================================== ANIMAÇÃO DADOS DO UFA ===========================================
+
+ 
+// .Cube {
+//   position: relative;
+//   width: 80px;
+//   height: 80px;
+//   line-height: 80px;
+//   text-align: center;
+//   font-size: 50px;
+//   -webkit-transform-style: preserve-3d;
+//   transform-style: preserve-3d;
+//   -webkit-transition: -webkit-transform 0.5s 0.1s;
+//   transition: transform 0.5s 0.1s;
+//   perspective: 9999px;
+//   color: #333;
+//   margin: -40px 0 0 -40px;
+//   margin: 0 auto;
+//   position: absolute;
+//   left: 50%;
+//   margin-left: -37px;
+//   top: 65px;
+//   opacity: 1;
+
+//   &.panelLoad {
+    
+//     top: 50%;
+//     margin-top: -60px;
+//     -webkit-animation: panel 5s infinite forwards;
+//     animation: panel 5s infinite forwards;
+    
+
+//     .cube-face {
+//       color: rgb(255, 255, 255);
+//       box-shadow: inset 0 0 0 1px rgb(255, 255, 255), 0 0 1px 1px rgb(255, 255, 255);
+//     }
+//   }
+
+//   .cube-face {
+//     width: inherit;
+//     height: inherit;
+//     position: absolute;
+//     background: rgb(214, 13, 114);
+    
+//     box-shadow: inset 0 0 0 1px #333, 0 0 1px 1px #333;
+//     opacity: 1;
+//   }
+
+//   .cube-face-front {
+    
+//     transform: translate3d(0, 0, 40px);
+//     -webkit-transform: translate3d(0, 0, 40px);
+//     font-size: 57px;
+//   }
+
+//   .cube-face-back {
+//     -webkit-transform: rotateY(180deg) translate3d(0, 0, 40px);
+//             transform: rotateY(180deg) translate3d(0, 0, 40px);
+//   }
+
+//   .cube-face-left {
+//     -webkit-transform: rotateY(-90deg) translate3d(0, 0, 40px);
+//             transform: rotateY(-90deg) translate3d(0, 0, 40px);
+//   }
+
+//   .cube-face-right {
+//     -webkit-transform: rotateY(90deg) translate3d(0, 0, 40px);
+//             transform: rotateY(90deg) translate3d(0, 0, 40px);
+//   }
+
+//   .cube-face-top {
+//     -webkit-transform: rotateX(90deg) translate3d(0, 0, 40px);
+//             transform: rotateX(90deg) translate3d(0, 0, 40px);
+//   }
+
+//   .cube-face-bottom {
+//     -webkit-transform: rotateX(-90deg) translate3d(0, 0, 40px);
+//             transform: rotateX(-90deg) translate3d(0, 0, 40px);
+//   }
+// }
+
+
+// @keyframes panel {
+//   0% {
+//     -webkit-transform: rotateY(0deg) rotateZ(0deg);
+//     transform: rotateY(0deg) rotateZ(0deg);
+//   }
+//   20% {
+//    -webkit-transform: rotateY(90deg) rotateZ(0deg);
+//    transform: rotateY(90deg) rotateZ(0deg);
+//   }
+//   40% {
+//    -webkit-transform: rotateX(45deg) rotateZ(45deg);
+//    transform: rotateX(45deg) rotateZ(45deg);
+//   }
+//   60% {
+//    -webkit-transform: rotateX(90deg) rotateY(180deg) rotateX(90deg);
+//    transform: rotateX(90deg) rotateY(180deg) rotateX(90deg);
+//   }
+//   80% {
+//    -webkit-transform: rotateX(310deg) rotateZ(230deg);
+//    transform: rotateX(310deg) rotateZ(230deg)
+//   }
+//   100% {
+//    -webkit-transform: rotateX(360deg) rotateZ(360deg);
+//    transform: rotateX(360deg) rotateZ(360deg)
+//   }
+// }

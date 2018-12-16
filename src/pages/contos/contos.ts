@@ -21,5 +21,11 @@ export class ContosPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad ContosPage');
   }
+  goToCreat(){
+    this.navCtrl.push('CreatContosPage');
+  }
+  goToNivel(){
+    this.navCtrl.push('NivelPage');
+  }
 
 }

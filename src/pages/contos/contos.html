@@ -1,31 +1,28 @@
-<ion-header no-border>
+<!--
+  Generated template for the ContosPage page.
 
-  <ion-navbar transparent>
-    <ion-title>contos</ion-title>
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-label style="color: #fff; font-size: 1.5em;  margin-left: 70px;">
+      Gostaria de:
+    </ion-label>
   </ion-navbar>
 
 </ion-header>
 
-<ion-content class="bg-image" text-center>
-  <h3 class="couple-type-text">Tipo de casal:</h3>
-  <ion-list class="couple-type-buttons">
-    <div>
-      <button ion-button outline round color="light" class="btn-couple" (click)="goToTentacao()">
-        Homem + Mulher
-      </button>
-    </div>
-    <div>
-      <button ion-button outline round color="light" class="btn-couple" (click)="goToTentacao()">
-        Homem + Homem
-      </button>
-    </div>
-    <div>
-      <button ion-button outline round color="light" class="btn-couple" (click)="goToTentacao()">
-        Mulher + Mulher
-      </button>
-    </div>
 
-  </ion-list>
-
-
+<ion-content padding id="cont">
+  <div style="margin-top:30%;"> 
+      <button ion-button block outline color="chow" style="margin-top:12px;" (click)="goToNivel()">Ler Contos</button>
+      <button ion-button block outline color="chow2" style="margin-top:12px;" (click)="goToCreat()">Escrever Contos</button>
+   </div>
+    
 </ion-content>
+
+<ion-footer no-shadow no-line no-border>
+  <img src="assets/img/teste.png" />
+</ion-footer>

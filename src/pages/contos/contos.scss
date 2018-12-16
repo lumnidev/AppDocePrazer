@@ -1,30 +1,8 @@
 page-contos {
-
-    .bg-image{
-        background-image: linear-gradient(rgb(255, 0, 50), rgb(255, 80, 120));
-    }
-    .toolbar-title {
-        color: #fff;
-    }
-    .bar-buttons{
-        color: #fff;
-    }
-    .back-button-icon {
-        color: #fff;
-    }
-    h3.couple-type-text{
-        margin-top: 9vh;
-        color: #fff;
-    }
-    .couple-type-buttons{
-        margin-top: 9vh;
-    }
-    .item{
-        background-color: transparent;
-    }
-    button.btn-couple{
-        margin-top: 5vh;
-        width: 54vw;
-        height: 10vh;
-    }
+    .toolbar-background{
+				
+        background: #f82c85;
+        
+     }
+     ion-icon{color: #fff;}
 }

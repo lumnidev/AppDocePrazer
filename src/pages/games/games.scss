@@ -1,86 +1,92 @@
 page-games {
 
+ion-label{
+    font-size: 20px;
+   color: rgb(252, 252, 252);
+}
+.div1{
+    
+    border-style: solid;
+    border-width: 2px;
+   
+}
 
-    .BG{
-            
-        background-image: linear-gradient(rgb(185, 0, 0), rgb(199, 2, 133));    // fazer degrade
-       z-index: 0;
-           
-       }
-     
-       
-    .bt1{
-        margin-top: -1%;
-        font-size: 20px;           //TAMANHO DA 
-        height: 15vh;
-       // padding: 39px 65px;          // TAMANHO DO BUTÃO
-        margin-bottom: -1vh;      // MARGEM DISTANCIA DE UM PRO OUTRO
-        background-color:#a40281;  
-     }
+.preliminares{
+    border-color:#f82c85; 
+ background: #f82c85;
+}
+.posicoes{
+border-color:#94124a;
+ background: #94124a;   
 
-     .bt2{
-        font-size: 20px;           //TAMANHO DA FONTE
-        height: 15vh;
-        //padding: 39px 65px;          // TAMANHO DO BUTÃO
-        margin-bottom: -1vh;       // MARGEM DISTANCIA DE UM PRO OUTRO
-        background-color:#b5029d;
-     }
+}
+.baralho{
+    border-color:#530125;
+    background: #530125;  
 
-     .bt3{
-        font-size: 20px;           //TAMANHO DA FONTE
-        height: 15vh;
-        // padding: 39px 65px;          // TAMANHO DO BUTÃO
-        margin-bottom: -1vh;      // MARGEM DISTANCIA DE UM PRO OUTRO
-        background-color: #b002c7;
-     }
-
-     .bt4{
-        font-size: 20px;           //TAMANHO DA FONTE
-        height: 15vh;
-        // padding: 39px 65px;          // TAMANHO DO BUTÃO
-        margin-bottom: -1vh;        // MARGEM DISTANCIA DE UM PRO OUTRO
-        background-color:#c103da;
-     }
-
-     .bt5{
-        font-size: 20px;           //TAMANHO DA FONTE
-        height: 15vh;
-        // padding: 39px 65px;          // TAMANHO DO BUTÃO
-        margin-bottom: -1vh;        // MARGEM DISTANCIA DE UM PRO OUTRO
-        background-color:#d604f2;
-     }
-
-     .bt6{
-        font-size: 20px;           //TAMANHO DA FONTE
-        height: 15vh;
-        // padding: 39px 65px;          // TAMANHO DO BUTÃO
-        margin-bottom: -1vh;         // MARGEM DISTANCIA DE UM PRO OUTRO
-        background-color:#f67120;
-     }
-
-     .bt7{
-        font-size: 20px;           //TAMANHO DA FONTE
-        height: 15vh;
-        // padding: 39px 65px;          // TAMANHO DO BUTÃO
-        margin-bottom: -1vh;         // MARGEM DISTANCIA DE UM PRO OUTRO
-        background-color:#f09a09;
-     }
-
-     .bt8{
-        font-size: 20px;           //TAMANHO DA FONTE
-        height: 15vh;
-        // padding: 39px 65px;          // TAMANHO DO BUTÃO
-        margin-bottom: -1vh;         // MARGEM DISTANCIA DE UM PRO OUTRO
-        background-color:#f6b302;
-     }
-
-     .bt9{
-        font-size: 20px;           //TAMANHO DA FONTE
-        height: 15vh;
-        // padding: 39px 65px;          // TAMANHO DO BUTÃO
-        margin-bottom: -1vh;         // MARGEM DISTANCIA DE UM PRO OUTRO
-        background-color:#f9c500;
-     }
+}
+.contos{
+    border-color:#9e28b1;
+    background:#9e28b1;   
 
 }
 
+.striptease{
+    border-color:#641370;
+    background:#641370;   
+
+
+}
+.tentacao{
+    border-color:#3b0044;
+    background:#3b0044;
+
+}
+.vibrador{
+    border-color:#fd3be3;
+    background:  #fd3be3;
+
+}
+.time{
+    border-color: #ce1eb6;
+    background:  #ce1eb6;
+
+}
+.sozinho{
+    border-color:#960482;
+    background:  #960482;
+
+}
+.title{
+    margin-left: -20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

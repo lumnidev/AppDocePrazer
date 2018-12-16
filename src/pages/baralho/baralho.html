@@ -1,0 +1,30 @@
+
+<ion-header>
+
+  <ion-navbar>
+      <ion-label style="color: #fff; font-size: 1.5em; margin-left: 60px; ">
+          Escolha um
+         </ion-label>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding id="cont">
+
+  <div style="margin-top:30%;"> 
+  <button ion-button block outline color="chow" style="margin-top:12px;" (click)="goToHetero2()">
+    Homem+Mulher
+  </button>
+  <button ion-button block outline color="chow2" style="margin-top:12px;"  (click)="goToLesbica2()">
+    Mulher+Mulher
+  </button>
+  <button ion-button block outline color="chow" style="margin-top:12px;" color="danger" (click)="goToGay2()">
+    Homem+Homem
+  </button>
+  </div>
+</ion-content>
+
+<ion-footer no-shadow no-line no-border>
+    <img src="assets/img/teste.png" />
+  </ion-footer>

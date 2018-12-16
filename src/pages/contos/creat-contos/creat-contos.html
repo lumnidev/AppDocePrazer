@@ -1,0 +1,59 @@
+<!--
+  Generated template for the CreatContosPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-label style="color: #fff; font-size: 1.5em;  margin-left: 70px;">
+      Escreva seu conto
+    </ion-label>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding id="cont">
+
+  <div style="border: 2px solid; border-color: rgb(196, 22, 22); height: 350px;">
+    <ion-item>
+      <ion-textarea placeholder="Enter a description" style="height: 345px;"></ion-textarea>
+    </ion-item>
+  </div>
+<div style="margin-top:10%;">
+  <ion-item>
+    <ion-label>Categoria</ion-label>
+    <ion-select [(ngModel)]="gender">
+      <ion-option value="g">Gay</ion-option>
+      <ion-option value="h">Hetero</ion-option>
+      <ion-option value="l">Lesbica</ion-option>
+      <ion-option value="i">Incesto</ion-option>
+      <ion-option value="a">Amor</ion-option>
+      <ion-option value="e">Empregada</ion-option>
+      <ion-option value="f">Fetiche</ion-option>
+      <ion-option value="o">Orgia</ion-option>
+      <ion-option value="t">Traição</ion-option>
+      <ion-option value="r">Rede Social</ion-option>
+      <ion-option value="v">Virgem</ion-option>
+      <ion-option value="p">Primos</ion-option>
+      <ion-option value="c">Casais</ion-option>
+      <ion-option value="m">Masturbação</ion-option>
+      <ion-option value="p">Proibidos</ion-option>
+      <ion-option value="ou">Outros</ion-option>
+    </ion-select>
+  </ion-item>
+</div>
+  
+
+  <div style="float: center;" text-center>
+     <button ion-button  outline color="chow"  style="margin-top:12px;">
+    salvar
+  </button>
+  <button ion-button  outline color="chow"  style="margin-top:12px;">
+    Cancelar
+  </button>
+  </div>
+ 
+</ion-content>
