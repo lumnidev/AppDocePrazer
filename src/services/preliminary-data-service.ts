@@ -1,0 +1,56 @@
+import { Injectable } from "@angular/core";
+
+
+@Injectable()
+export class PreliminaryDataService {
+    private preliminaryData = {
+        hetero: {
+            soft: {
+                playerMasc: {
+                    texts: [
+                        {
+                            text: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                            title: "prelim1"
+                        },
+                        {
+                            text: "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+                            title: "prelim2"
+                        },
+                        {
+                            text: "cccccccccccccccccccccccccccccccccccccc",
+                            title: "prelim3"
+                        },
+                        {
+                            text: "ddddddddddddddddddddddddddddddddddddd",
+                            title: "prelim4"
+                        }
+                    ]
+                },
+                playerFem: {
+                    texts: [
+                        {
+                            text: "1111111111111111111111111111111111"
+                        },
+                        {
+                            text: "222222222222222222222222222222222222"
+                        },
+                        {
+                            text: "33333333333333333333333333333333"
+                        },
+                        {
+                            text: "4444444444444444444444444444"
+                        }
+                    ]
+                }
+            },
+            moderate: {},
+            romantic: {},
+            sadic: {}
+        }
+    };
+
+    getPrelimData(){
+        return this.preliminaryData;
+    }
+
+}
